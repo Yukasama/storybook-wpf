@@ -5,7 +5,7 @@
 Mit Storybook können UI-Komponenten isoliert entwickelt und getestet werden.
 Dazu wird ein Node-Server gestartet, welcher alle erstellten Stories erkennt und organisiert anzeigt.
 
-![alt text](image-4.png)
+![alt text](docs/image-4.png)
 
 Zusätzlich können alle Komponenten individuell mit MDX dokumentiert werden, um z. B. anderen Teammitgliedern die Verwendung zu erleichtern.
 
@@ -175,11 +175,11 @@ Accessibility-Tests werden, anders als Interaction-Tests, mithilfe des `@storybo
 
 Links unten in der Storybook Oberfläche findet man das Test-Menü, mit welchem Interaction-Tests und/oder a11y-Tests ausgeführt werden können:
 
-![alt text](image-1.png)
+![alt text](docs/image-1.png)
 
 Optional kann auch die Test-Coverage aktiviert werden:
 
-![alt text](image-2.png)
+![alt text](docs/image-2.png)
 
 Der Test-Coverage Report wird durch das Vitest-Add-on erzeugt. Sowohl die Ausführung der einzelnen Stories für eine Komponente, als auch Interaction-Tests zählen mit in die Test-Coverage.
 
@@ -454,7 +454,7 @@ export const InvalidCredentials: Story = {
 
 Zur Veranschaulichung ist hier dargestellt, wie ein Field-Error beim Password-Feld in der Weboberfläche aussehen würde.
 
-![alt text](image.png)
+![alt text](docs/image.png)
 
 ## Fazit
 
